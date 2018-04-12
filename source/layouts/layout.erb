@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <%= partial 'head-contents' %>
+  </head>
+  <body>
+    <%= partial 'navigation' %>
+    <%= partial 'header' %>
+    <%= yield %>
+    <%= partial 'footer' %>
+    <!-- jQuery -->
+    <script 
+  src='https://code.jquery.com/jquery-3.3.1.min.js'
+  integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+  crossorigin='anonymous'></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
+    <!-- Custom Theme JavaScript -->
+    <%= partial 'scripts' %>
+  </body>
+</html>
