@@ -183,6 +183,7 @@ hr.small {
 
 .header h1 {
   text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+  margin-top: 50px;
 }
 
 /* About */
