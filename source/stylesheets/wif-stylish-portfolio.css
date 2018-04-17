@@ -5,11 +5,19 @@
  */
 
 /* Global Styles */
+a {
+    color: #bc7f06;
+}
+
+a:hover {
+    color: #614102;
+}
 
 html,
 body {
     width: 100%;
     height: 100%;
+    background-image: url("/images/ricebk.jpg");
 }
 
 body {
@@ -170,11 +178,11 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    /* text-shadow: 1px 1px 0px rgba(0,0,0,0.2); */
 }
 
 .header h1 {
-  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
 }
 
 /* About */
@@ -203,7 +211,6 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background: url(../images/kailua_beach.png) no-repeat center center scroll;
 }
 
 .callout h1 {
